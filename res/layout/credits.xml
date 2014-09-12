@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TextView android:text="Project Mentor" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="Beena Bethal" android:layout_height="80px" android:id="@+id/textView2"></TextView>
+    <TextView android:text="Coders" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="Sridhar Vemula" android:layout_height="50px" android:id="@+id/textView4"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="Theja Ch.VRS" android:layout_height="80px" android:id="@+id/textView5"></TextView>
+    <TextView android:text="Interface" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="Yashwanth Bagoda" android:layout_height="50px" android:id="@+id/textView7"></TextView>
+    <TextView android:layout_height="50px" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Avi Kumar" android:id="@+id/textView8"></TextView>
+</LinearLayout>
+

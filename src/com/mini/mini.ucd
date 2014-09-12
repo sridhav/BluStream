@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="mini" size="1113,807" id="com.mini" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D31302050726F6A656374416E64726F6964">
+  <children xsi:type="editmodel:ClassEditModel" name="ImageViewer" location="45,610" size="191,67" id="com.mini/ImageViewer" runTimeClassModel="onCreate(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.mini/ImageViewer#onCreate(Landroid.os.Bundle;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BluetoothCommandService" location="257,50" size="216,319" id="com.mini/BluetoothCommandService" runTimeClassModel="connected(Landroid.bluetooth.BluetoothSocket;Landroid.bluetooth.BluetoothDevice;),eXT_CMD,sTATE_LISTEN,getState(),start(),sTATE_CONNECTING,vOL_UP,connect(Landroid.bluetooth.BluetoothDevice;),vOL_DOWN,stop(),sTATE_NONE,sTATE_CONNECTED,write(I),BluetoothCommandService(Landroid.content.Context;Landroid.os.Handler;),mOUSE_MOVE">
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="eXT_CMD" id="com.mini/BluetoothCommandService#eXT_CMD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mOUSE_MOVE" id="com.mini/BluetoothCommandService#mOUSE_MOVE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_CONNECTED" id="com.mini/BluetoothCommandService#sTATE_CONNECTED"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_CONNECTING" id="com.mini/BluetoothCommandService#sTATE_CONNECTING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_LISTEN" id="com.mini/BluetoothCommandService#sTATE_LISTEN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_NONE" id="com.mini/BluetoothCommandService#sTATE_NONE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vOL_DOWN" id="com.mini/BluetoothCommandService#vOL_DOWN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vOL_UP" id="com.mini/BluetoothCommandService#vOL_UP"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="159,126">
+      <children xsi:type="editmodel:MethodEditModel" name="BluetoothCommandService" id="com.mini/BluetoothCommandService#BluetoothCommandService(Landroid.content.Context;Landroid.os.Handler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="connect" id="com.mini/BluetoothCommandService#connect(Landroid.bluetooth.BluetoothDevice;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="connected" id="com.mini/BluetoothCommandService#connected(Landroid.bluetooth.BluetoothSocket;Landroid.bluetooth.BluetoothDevice;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getState" id="com.mini/BluetoothCommandService#getState()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="com.mini/BluetoothCommandService#start()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stop" id="com.mini/BluetoothCommandService#stop()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="write" id="com.mini/BluetoothCommandService#write(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BluetoothChatService" location="806,50" size="180,247" id="com.mini/BluetoothChatService" runTimeClassModel="connect(Landroid.bluetooth.BluetoothDevice;),connected(Landroid.bluetooth.BluetoothSocket;Landroid.bluetooth.BluetoothDevice;),write([B),stop(),getState(),sTATE_LISTEN,BluetoothChatService(Landroid.content.Context;Landroid.os.Handler;),sTATE_NONE,start(),sTATE_CONNECTED,sTATE_CONNECTING">
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_CONNECTED" id="com.mini/BluetoothChatService#sTATE_CONNECTED"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_CONNECTING" id="com.mini/BluetoothChatService#sTATE_CONNECTING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_LISTEN" id="com.mini/BluetoothChatService#sTATE_LISTEN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_NONE" id="com.mini/BluetoothChatService#sTATE_NONE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,126">
+      <children xsi:type="editmodel:MethodEditModel" name="BluetoothChatService" id="com.mini/BluetoothChatService#BluetoothChatService(Landroid.content.Context;Landroid.os.Handler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="connect" id="com.mini/BluetoothChatService#connect(Landroid.bluetooth.BluetoothDevice;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="connected" id="com.mini/BluetoothChatService#connected(Landroid.bluetooth.BluetoothSocket;Landroid.bluetooth.BluetoothDevice;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getState" id="com.mini/BluetoothChatService#getState()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="com.mini/BluetoothChatService#start()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stop" id="com.mini/BluetoothChatService#stop()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="write" id="com.mini/BluetoothChatService#write([B)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DeviceListActivity" location="252,381" size="211,57" id="com.mini/DeviceListActivity" runTimeClassModel="eXTRA_DEVICE_ADDRESS">
+    <children xsi:type="editmodel:CompartmentEditModel" size="184,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="eXTRA_DEVICE_ADDRESS" id="com.mini/DeviceListActivity#eXTRA_DEVICE_ADDRESS"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BluetoothExplorer" location="45,414" size="195,103" id="com.mini/BluetoothExplorer" runTimeClassModel="onCreate(Landroid.os.Bundle;),open_dialog(),send_dialog()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,54">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.mini/BluetoothExplorer#onCreate(Landroid.os.Bundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="open_dialog" id="com.mini/BluetoothExplorer#open_dialog()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="send_dialog" id="com.mini/BluetoothExplorer#send_dialog()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Credits" location="40,532" size="191,67" id="com.mini/Credits" runTimeClassModel="onCreate(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.mini/Credits#onCreate(Landroid.os.Bundle;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BluetoothChat" location="561,50" size="195,337" id="com.mini/BluetoothChat" runTimeClassModel="mESSAGE_WRITE,onCreateOptionsMenu(Landroid.view.Menu;),mESSAGE_STATE_CHANGE,onPause(),onOptionsItemSelected(Landroid.view.MenuItem;),onCreate(Landroid.os.Bundle;),onStart(),mESSAGE_DEVICE_NAME,onStop(),mESSAGE_TOAST,dEVICE_NAME,onDestroy(),tOAST,mESSAGE_READ,onResume(),onActivityResult(IILandroid.content.Intent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="dEVICE_NAME" id="com.mini/BluetoothChat#dEVICE_NAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_DEVICE_NAME" id="com.mini/BluetoothChat#mESSAGE_DEVICE_NAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_READ" id="com.mini/BluetoothChat#mESSAGE_READ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_STATE_CHANGE" id="com.mini/BluetoothChat#mESSAGE_STATE_CHANGE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_TOAST" id="com.mini/BluetoothChat#mESSAGE_TOAST"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_WRITE" id="com.mini/BluetoothChat#mESSAGE_WRITE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tOAST" id="com.mini/BluetoothChat#tOAST"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,162">
+      <children xsi:type="editmodel:MethodEditModel" name="onActivityResult" id="com.mini/BluetoothChat#onActivityResult(IILandroid.content.Intent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.mini/BluetoothChat#onCreate(Landroid.os.Bundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="com.mini/BluetoothChat#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDestroy" id="com.mini/BluetoothChat#onDestroy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onOptionsItemSelected" id="com.mini/BluetoothChat#onOptionsItemSelected(Landroid.view.MenuItem;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onPause" id="com.mini/BluetoothChat#onPause()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onResume" id="com.mini/BluetoothChat#onResume()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onStart" id="com.mini/BluetoothChat#onStart()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onStop" id="com.mini/BluetoothChat#onStop()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BluetoothRemote" location="50,50" size="195,355" id="com.mini/BluetoothRemote" runTimeClassModel="mESSAGE_WRITE,onCreateOptionsMenu(Landroid.view.Menu;),mESSAGE_STATE_CHANGE,onPause(),onOptionsItemSelected(Landroid.view.MenuItem;),onCreate(Landroid.os.Bundle;),onStart(),mESSAGE_DEVICE_NAME,onStop(),onKeyDown(ILandroid.view.KeyEvent;),mESSAGE_TOAST,dEVICE_NAME,onDestroy(),tOAST,mESSAGE_READ,onResume(),onActivityResult(IILandroid.content.Intent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="dEVICE_NAME" id="com.mini/BluetoothRemote#dEVICE_NAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_DEVICE_NAME" id="com.mini/BluetoothRemote#mESSAGE_DEVICE_NAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_READ" id="com.mini/BluetoothRemote#mESSAGE_READ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_STATE_CHANGE" id="com.mini/BluetoothRemote#mESSAGE_STATE_CHANGE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_TOAST" id="com.mini/BluetoothRemote#mESSAGE_TOAST"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_WRITE" id="com.mini/BluetoothRemote#mESSAGE_WRITE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tOAST" id="com.mini/BluetoothRemote#tOAST"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,180">
+      <children xsi:type="editmodel:MethodEditModel" name="onActivityResult" id="com.mini/BluetoothRemote#onActivityResult(IILandroid.content.Intent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.mini/BluetoothRemote#onCreate(Landroid.os.Bundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="com.mini/BluetoothRemote#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDestroy" id="com.mini/BluetoothRemote#onDestroy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onKeyDown" id="com.mini/BluetoothRemote#onKeyDown(ILandroid.view.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onOptionsItemSelected" id="com.mini/BluetoothRemote#onOptionsItemSelected(Landroid.view.MenuItem;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onPause" id="com.mini/BluetoothRemote#onPause()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onResume" id="com.mini/BluetoothRemote#onResume()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onStart" id="com.mini/BluetoothRemote#onStart()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onStop" id="com.mini/BluetoothRemote#onStop()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DeviceListActivity2" location="252,455" size="211,57" id="com.mini/DeviceListActivity2" runTimeClassModel="eXTRA_DEVICE_ADDRESS">
+    <children xsi:type="editmodel:CompartmentEditModel" size="184,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="eXTRA_DEVICE_ADDRESS" id="com.mini/DeviceListActivity2#eXTRA_DEVICE_ADDRESS"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CreditsExplore" location="252,605" size="206,67" id="com.mini/CreditsExplore" runTimeClassModel="onCreate(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.mini/CreditsExplore#onCreate(Landroid.os.Bundle;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ProjectAndroid" location="256,529" size="207,67" id="com.mini/ProjectAndroid" runTimeClassModel="onCreate(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.mini/ProjectAndroid#onCreate(Landroid.os.Bundle;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
